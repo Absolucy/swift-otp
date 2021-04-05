@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC264ECC261BB3F0004EC89A /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264ECB261BB3F0004EC89A /* CircularProgress.swift */; };
+		AC264ECD261BB3F0004EC89A /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264ECB261BB3F0004EC89A /* CircularProgress.swift */; };
+		AC264ED4261BB453004EC89A /* OtpEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264ED3261BB453004EC89A /* OtpEntry.swift */; };
+		AC264ED5261BB453004EC89A /* OtpEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264ED3261BB453004EC89A /* OtpEntry.swift */; };
+		AC264ED9261BB45D004EC89A /* Hotp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264ED8261BB45D004EC89A /* Hotp.swift */; };
+		AC264EDA261BB45D004EC89A /* Hotp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264ED8261BB45D004EC89A /* Hotp.swift */; };
+		AC264EDE261BB473004EC89A /* OtpInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264EDD261BB473004EC89A /* OtpInfo.swift */; };
+		AC264EDF261BB473004EC89A /* OtpInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264EDD261BB473004EC89A /* OtpInfo.swift */; };
+		AC264EE3261BB49A004EC89A /* OtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264EE2261BB49A004EC89A /* OtpView.swift */; };
+		AC264EE4261BB49A004EC89A /* OtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264EE2261BB49A004EC89A /* OtpView.swift */; };
+		AC264EE8261BB4E6004EC89A /* NeonEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264EE7261BB4E6004EC89A /* NeonEffect.swift */; };
+		AC264EE9261BB4E6004EC89A /* NeonEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264EE7261BB4E6004EC89A /* NeonEffect.swift */; };
+		AC264EED261BB504004EC89A /* AddOtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264EEC261BB504004EC89A /* AddOtpView.swift */; };
+		AC264EEE261BB504004EC89A /* AddOtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC264EEC261BB504004EC89A /* AddOtpView.swift */; };
 		AC3B866126190539006FB64F /* PlaygroundOTPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B864E26190538006FB64F /* PlaygroundOTPApp.swift */; };
 		AC3B866226190539006FB64F /* PlaygroundOTPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B864E26190538006FB64F /* PlaygroundOTPApp.swift */; };
 		AC3B866326190539006FB64F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B864F26190538006FB64F /* ContentView.swift */; };
@@ -16,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC264ECB261BB3F0004EC89A /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
+		AC264ED3261BB453004EC89A /* OtpEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpEntry.swift; sourceTree = "<group>"; };
+		AC264ED8261BB45D004EC89A /* Hotp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotp.swift; sourceTree = "<group>"; };
+		AC264EDD261BB473004EC89A /* OtpInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpInfo.swift; sourceTree = "<group>"; };
+		AC264EE2261BB49A004EC89A /* OtpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpView.swift; sourceTree = "<group>"; };
+		AC264EE7261BB4E6004EC89A /* NeonEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonEffect.swift; sourceTree = "<group>"; };
+		AC264EEC261BB504004EC89A /* AddOtpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOtpView.swift; sourceTree = "<group>"; };
 		AC3B864E26190538006FB64F /* PlaygroundOTPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundOTPApp.swift; sourceTree = "<group>"; };
 		AC3B864F26190538006FB64F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC3B865026190539006FB64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +65,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC264ECA261BB3D9004EC89A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC3B864F26190538006FB64F /* ContentView.swift */,
+				AC264ECB261BB3F0004EC89A /* CircularProgress.swift */,
+				AC264EE2261BB49A004EC89A /* OtpView.swift */,
+				AC264EEC261BB504004EC89A /* AddOtpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC264ED2261BB448004EC89A /* Otp */ = {
+			isa = PBXGroup;
+			children = (
+				AC264ED3261BB453004EC89A /* OtpEntry.swift */,
+				AC264ED8261BB45D004EC89A /* Hotp.swift */,
+				AC264EDD261BB473004EC89A /* OtpInfo.swift */,
+			);
+			path = Otp;
+			sourceTree = "<group>";
+		};
 		AC3B864826190538006FB64F = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +99,11 @@
 		AC3B864D26190538006FB64F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				AC264ED2261BB448004EC89A /* Otp */,
+				AC264ECA261BB3D9004EC89A /* Views */,
 				AC3B864E26190538006FB64F /* PlaygroundOTPApp.swift */,
-				AC3B864F26190538006FB64F /* ContentView.swift */,
 				AC3B865026190539006FB64F /* Assets.xcassets */,
+				AC264EE7261BB4E6004EC89A /* NeonEffect.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -97,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC3B866926190539006FB64F /* Build configuration list for PBXNativeTarget "PlaygroundOTP (iOS)" */;
 			buildPhases = (
+				ACEB5C43261BB5A800781DB0 /* ShellScript */,
 				AC3B865126190539006FB64F /* Sources */,
 				AC3B865226190539006FB64F /* Frameworks */,
 				AC3B865326190539006FB64F /* Resources */,
@@ -114,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC3B866C26190539006FB64F /* Build configuration list for PBXNativeTarget "PlaygroundOTP (macOS)" */;
 			buildPhases = (
+				ACEB5C46261BB5C300781DB0 /* ShellScript */,
 				AC3B865926190539006FB64F /* Sources */,
 				AC3B865A26190539006FB64F /* Frameworks */,
 				AC3B865B26190539006FB64F /* Resources */,
@@ -182,12 +228,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ACEB5C43261BB5A800781DB0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n\tswiftlint\nelse\n\techo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		ACEB5C46261BB5C300781DB0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n\tswiftlint\nelse\n\techo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC3B865126190539006FB64F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC264EE8261BB4E6004EC89A /* NeonEffect.swift in Sources */,
+				AC264EE3261BB49A004EC89A /* OtpView.swift in Sources */,
+				AC264EED261BB504004EC89A /* AddOtpView.swift in Sources */,
 				AC3B866326190539006FB64F /* ContentView.swift in Sources */,
+				AC264EDE261BB473004EC89A /* OtpInfo.swift in Sources */,
+				AC264ED9261BB45D004EC89A /* Hotp.swift in Sources */,
+				AC264ECC261BB3F0004EC89A /* CircularProgress.swift in Sources */,
+				AC264ED4261BB453004EC89A /* OtpEntry.swift in Sources */,
 				AC3B866126190539006FB64F /* PlaygroundOTPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC264EE9261BB4E6004EC89A /* NeonEffect.swift in Sources */,
+				AC264EE4261BB49A004EC89A /* OtpView.swift in Sources */,
+				AC264EEE261BB504004EC89A /* AddOtpView.swift in Sources */,
 				AC3B866426190539006FB64F /* ContentView.swift in Sources */,
+				AC264EDF261BB473004EC89A /* OtpInfo.swift in Sources */,
+				AC264EDA261BB45D004EC89A /* Hotp.swift in Sources */,
+				AC264ECD261BB3F0004EC89A /* CircularProgress.swift in Sources */,
+				AC264ED5261BB453004EC89A /* OtpEntry.swift in Sources */,
 				AC3B866226190539006FB64F /* PlaygroundOTPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

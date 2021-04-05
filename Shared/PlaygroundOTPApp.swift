@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-@main
-struct PlaygroundOTPApp: App {
+@main struct PlaygroundOTPApp: App {
 	var body: some Scene {
 		WindowGroup {
 			ContentView()
